@@ -1,15 +1,11 @@
-example.property: "I AM IN THE DEV"
-spring:
-  datasource:
-    url: jdbc:h2:tcp://localhost/~/springVue
-    username: sa
-    password:
-    driver-class-name: org.h2.Driver
+spring.jpa.database: "POSTGRESQL"
+spring.datasource.platform:  "postgres"
+spring.jpa.show-sql: "false"
+spring.database.driverClassName: "org.postgresql.Driver"
+spring.datasource.url: "jdbc:postgresql://database:5432/microservice_dev"
+spring.datasource.username: "postgres_dev"
+spring.datasource.password: "{cipher}c85f34296feb462ff518f9ae12ea7a9aea927cf7d789a69e0c56daadad5909c6"
+spring.datasource.testWhileIdle: "true"
+spring.datasource.validationQuery: "SELECT 1"
+spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
 
-  jpa:
-    hibernate:
-      ddl-auto: create
-    properties:
-      hibernate:
-        format_sql: true
-        show_sql: true
