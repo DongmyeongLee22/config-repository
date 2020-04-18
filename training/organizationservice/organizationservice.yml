@@ -3,7 +3,7 @@ spring:
   datasource:
     url: jdbc:mysql://database:3306/msa-default
     username: jayden
-    password: "{cipher}175d165398d2727f89370005a01f67602b9ab6b1525bb1269e4394793a0f2e69"
+    password: "{cipher}189d9326ac276a04eac1c5066be0fa32f0129de0d5d3feef8e8cc4455f491189"
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
