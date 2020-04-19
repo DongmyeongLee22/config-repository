@@ -1,0 +1,10 @@
+zuul:
+  prefix: /api
+  ignored-services: '*' # 수동 경로 매핑 시 자동 경로 매핑을 제외
+  routes:
+    organizationservice: /organization/** # 수동 경로 매핑
+    licensingservice: /licensing/**
+      #licensestatic: # 유레카 서비스 검색 엔진에 등록되지 않은 서비스를 가리키게 수동 매핑도 가능하다.
+      # path: /licensestatic/**
+      # url: http://licenseservice-static:8081
+    # serviceId: licensestatic # url이 아닌 service id를 지정할수도 있다.
