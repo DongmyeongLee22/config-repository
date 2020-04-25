@@ -4,6 +4,7 @@ zuul:
   routes:
     organizationservice: /organization/** # 수동 경로 매핑
     licensingservice: /licensing/**
+
       #licensestatic: # 유레카 서비스 검색 엔진에 등록되지 않은 서비스를 가리키게 수동 매핑도 가능하다.
       # path: /licensestatic/**
       # url: http://licenseservice-static:8081
