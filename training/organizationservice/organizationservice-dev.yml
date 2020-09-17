@@ -3,7 +3,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/msa-dev
     username: jayden
-    password: "{cipher}3d268a5fe942246cc2d7e9f7b2cdf159c9072e5f38219dac33b88f68684c4371"
+    password: password-dev
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
@@ -14,3 +14,6 @@ spring:
         format_sql: "true"
         show_sql: "true"
         dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+
+zuul:
+  url: http://localhost:5555
