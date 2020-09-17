@@ -17,3 +17,8 @@ spring:
 
 zuul:
   url: http://zuulservice
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eurekaserver:8761/eureka/
