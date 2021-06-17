@@ -1,6 +1,6 @@
 token:
   expiration_time: 86400000
-  secret: uesr_token_v4
+  secret: uesr_token_v5
 
 
 gateway:
