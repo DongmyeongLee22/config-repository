@@ -1,0 +1,7 @@
+token:
+  expiration_time: 86400000
+  secret: uesr_token_v4
+
+
+gateway:
+  ip: 192.168.95.6
