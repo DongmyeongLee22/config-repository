@@ -1,7 +1,6 @@
 token:
   expiration_time: 86400000
-  secret: uesr_token_v5
-
+  secret: '{cipher}AQBN+GqGzGEARbeTsANGB+15wlpsTpwSyR/8J+6UTFNcaBA0IM29o3fZg+XDZSCmFUdQpoSPYhGA/EVl/0SGH8BoisISmp1oThcByvFzacSDbfuxj81Hmf2oTaN2ThmDHF+sG0FcfpqYAEJT5Sy7/uAcgLlQSgGqCVzLYRy/TZ0+vGEd6eG72eSWs45Uy/ULKq7wpynjzhssukL3ZXd+Qyf3VyQeXNn3uyYjZUSK6gjaR1bieLS5EjczL3r4SXmuBp5k6k5Wc0r9m7f34ea6ly1FXXsySvNQVk2tLrmgG38umfm+rrIzHBGPdCm0hq/oBZp63fKrSvfwXLWzm/MGRW41ceJpXYcrLqWQJhBtu9m5f1zbKvsCfdByrqoYFZMuos0='
 
 gateway:
   ip: 192.168.95.6

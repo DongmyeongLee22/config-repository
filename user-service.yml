@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: '{cipher}AQAynIP+m5pM2Wy0lmT0NxFd6ZEkQ9+1vKe/rYBYv31BNi7urMXOrPFCAkrEISl32KXuZICfUOLu4rohQTxE/Gje8I/MUx5Vh/ZNZnYyLW8LB/ufheQBy0D5wNIrvLoFgE9IbhyjNL1TpOduiSRiLN7s6clyJatCFS9rB2lYMg4HabMNRz1iYm4P25pTSgjAObepRYiSV46FRqsSm6lMiOdCwjNMUySGNiuXL3paoAK/xXsbHsMjmX1ZJFt8E+OIWQUvbF0IIKkJ2FhBNE26nXkSFdKgg2BFEhul0fiVC57pxCVMzmIF8zqrBzL+WD2TyuFvn7BHd6zKMBtHt8XF6yvboUvk8cS7Tkla38irlSV4GlDXhQu1pRPHdRzRXHm/Hpg='
+
+order_service:
+  url: http://ORDER-SERVICE/order-service/%s/orders
